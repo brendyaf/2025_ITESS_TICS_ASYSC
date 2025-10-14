@@ -26,3 +26,4 @@ print("del a[:]:", a)
 
 #del puede usarse también para eliminar variables:
 del a
+print("del a:", a)
