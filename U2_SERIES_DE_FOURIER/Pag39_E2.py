@@ -3,21 +3,25 @@
 # Descripción: ejemplos de uso de la función dir() en Python
 
 import sys
-import fibo.py
+import fibo
 import builtins
 
-# 1️ Usando dir() en un módulo
-print("Nombres en el módulo fibo:")
-print(dir(fib))
-print("\nNombres en el módulo sys:")
+# La función integrada dir() se usa para encontrar qué nombres define un módulo.
+# Devuelve una lista ordenada decadenas:
+print("dir(fibo)")
+print(dir(fibo))
+print("dir(sys)")
 print(dir(sys))
 
-# 2️ dir() sin argumentos: nombres definidos actualmente
+# Sin argumentos, dir() lista los nombres que tenés actualmente definidos:
 a = [1, 2, 3, 4, 5]
-fib = fibo.fib  # asignando la función a un nombre local
+print("a = [1, 2, 3, 4, 5]")
+print("fib = fibo.fib")
+fib = fibo.fib 
 print("\nNombres definidos actualmente:")
 print(dir())
 
-# 3️ dir() en el módulo builtins: funciones y variables integradas
-print("\nNombres en el módulo builtins (funciones y constantes integradas):")
+# dir() no lista los nombres de las funciones y variables integradas. Si queeres
+# una lista de esos, están definidos en el módulo estándar builtins:
+print("\nNombres en el módulo builtins:")
 print(dir(builtins))
