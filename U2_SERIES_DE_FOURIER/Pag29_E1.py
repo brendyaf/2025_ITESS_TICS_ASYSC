@@ -8,20 +8,26 @@
 #  y zip() para que se vea lo equivalente.
 
 # matriz de 3x4 implementada como una lista de tres listas de largo 4:
+
 matriz = [
 [1, 2, 3, 4],
 [5, 6, 7, 8],
 [9, 10, 11, 12],]
+print("matriz = [[1,2,3,4],[5,6,7,8],[9,10,11,12]]")
+print(matriz)
 
 #La siguiente comprensión de lista transpondrá las filas y columnas:
-[[fila[i] for fila in matriz] for i in range(4)]
+print("[[fila[i] for fila in matriz] for i in range(4)]")
+print([[fila[i] for fila in matriz] for i in range(4)])
 #[[1, 5, 9], [2, 6, 10], [3, 7, 11], [4, 8, 12]]
 
 # La lista de comprensión anidada se evalua en el contexto del for:
 transpuesta = []
 for i in range(4):
     transpuesta.append([fila[i] for fila in matriz])
-transpuesta
+    
+print("transpuesta = [] for i in range(4):transpuesta.append([fila[i] for fila in matriz])")
+print(transpuesta)
 #[[1, 5, 9], [2, 6, 10], [3, 7, 11], [4, 8, 12]]
 
 #Es lo mismo que:
@@ -32,12 +38,15 @@ for i in range(4):
 for fila in matriz:
     fila_transpuesta.append(fila[i])
 transpuesta.append(fila_transpuesta)
-transpuesta
+print("transpuesta = []for i in range(4):fila_transpuesta = []"
+"for fila in matriz: fila_transpuesta.append(fila[i])printranspuesta.append(fila_transpuesta)")
+print(transpuesta)
 #[[1, 5, 9], [2, 6, 10], [3, 7, 11], [4, 8, 12]]
 
 #La función zip() haría un buen trabajo para este caso de uso:
-list(zip(*matriz))
-[(1, 5, 9), (2, 6, 10), (3, 7, 11), (4, 8, 12)]
+print("list(zip(*matriz))")
+print(list(zip(*matriz)))
+# [(1, 5, 9), (2, 6, 10), (3, 7, 11), (4, 8, 12)]
 
 
 
