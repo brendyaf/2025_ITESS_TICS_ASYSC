@@ -1,6 +1,10 @@
-# dir_funciones.py
-# Autor: (tu nombre)
-# Descripción: ejemplos de uso de la función dir() en Python
+# ITESS TICS
+# TI-501
+# 14/10/2025
+# ANÁLISIS DE SEÑALES Y SISTEMAS DE COMUNICACIONES
+# Profesor: Francisco Javier Montecillo Puente
+# BRANDY AGUILAR FLORES - brandyaguilar001@gmail.com
+# DESCRIPCIÓN: ejemplos de uso de la función dir() en Python
 
 import sys
 import fibo
