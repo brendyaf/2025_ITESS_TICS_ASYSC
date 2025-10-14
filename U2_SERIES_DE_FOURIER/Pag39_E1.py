@@ -4,7 +4,9 @@
 # ANÁLISIS DE SEÑALES Y SISTEMAS DE COMUNICACIONES
 # Profesor: Francisco Javier Montecillo Puente
 # BRANDY AGUILAR FLORES - brandyaguilar001@gmail.com
-# DESCRIPCIÓN:
+# DESCRIPCIÓN: Python incluye una biblioteca estándar de módulos, que permite acceder a 
+# funcionalidades que no están en el núcleo del lenguaje, como operaciones del sistema operativo 
+# o herramientas integradas. El módulo sys es uno de los más importantes, presente en todos los intérpretes
 
 # Las variables sys.ps1 y sys.ps2 definen las cadenas usadas como cursores primarios y secundarios:
 import sys
