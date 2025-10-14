@@ -8,22 +8,7 @@
 # serie Fibonacci, además contiene el contenido para el interprete.
 
 #crear un archivo llamado fibo.py en el directorio actual, con el siguiente contenido:
-
-# módulo de números Fibonacci
-def fib(n): # escribe la serie Fibonacci hasta n
-    a, b = 0, 1
-    while b < n:
-        print(b, end=' ')
-    a, b = b, a+b
-print()
-
-def fib2(n): # devuelve la serie Fibonacci hasta n
- resultado = []
- a, b = 0, 1
- while b < n:
-    resultado.append(b)
- a, b = b, a+b
- return resultado
+# Listo: fibo.py
 
 #Ahora entrá al intérprete de Python e importá este módulo con la siguiente orden:
 import fibo
@@ -33,9 +18,9 @@ import fibo
 fibo.fib(1000)
 #1 1 2 3 5 8 13 21 34 55 89 144 233 377 610 987
 fibo.fib2(100)
-#[1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
+[1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
 fibo.__name__
-'fibo'
+#'fibo'
 fib = fibo.fib
 fib(500)
 #1 1 2 3 5 8 13 21 34 55 89 144 233 377
