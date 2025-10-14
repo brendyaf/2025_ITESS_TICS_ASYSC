@@ -1,6 +1,6 @@
 # ITESS TICS
 # TI-501
-# ANALISIS DE SEÑALES Y SISTEMAS DE COMUNICACIONES
+# ANÁLISIS DE SEÑALES Y SISTEMAS DE COMUNICACIONES
 # Profesor: Francisco Javier Montecillo Puente
 # BRANDY AGUILAR FLORES - brandyaguilar001@gmail.com
 # DESCRIPCIÓN: Usando listas como pilas, aqui se muestra como usar listas en Python como 

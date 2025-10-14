@@ -1,11 +1,11 @@
 #ITESS tics
 #TI-501
-#ANALISIS DE SEÑALES Y SISTEMAS DE COMUNICACIONES
+# ANÁLISIS DE SEÑALES Y SISTEMAS DE COMUNICACIONES
 # Profesor: Francisco Javier Montecillo Puente
-##BRANDY AGUILAR FLORES - brandyaguilar001@gmail.com
+# BRANDY AGUILAR FLORES - brandyaguilar001@gmail.com
 # Este script muestra cómo manipular listas en Python usando algunos de sus métodos. 
-#  Se realizan operaciones para contar, insertar, agregar, buscar, eliminar, invertir,
-#  ordenar y quitar elementos, mostrando cómo cambia la lista paso a paso.
+# Se realizan operaciones para contar, insertar, agregar, buscar, eliminar, invertir,
+# ordenar y quitar elementos, mostrando cómo cambia la lista paso a paso.
 
 
 a = [66.25, 333, 333, 1, 1234.5]
