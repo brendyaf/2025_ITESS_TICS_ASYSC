@@ -37,7 +37,7 @@ transpuesta
 
 #La función zip() haría un buen trabajo para este caso de uso:
 list(zip(*matriz))
-#[(1, 5, 9), (2, 6, 10), (3, 7, 11), (4, 8, 12)]
+[(1, 5, 9), (2, 6, 10), (3, 7, 11), (4, 8, 12)]
 
 
 
