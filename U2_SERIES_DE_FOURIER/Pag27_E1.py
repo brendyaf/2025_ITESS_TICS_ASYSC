@@ -1,5 +1,6 @@
-#ITESS tics
-#TI-501
+# ITESS tics
+# TI-501
+# 13/10/2025
 # ANÁLISIS DE SEÑALES Y SISTEMAS DE COMUNICACIONES
 # Profesor: Francisco Javier Montecillo Puente
 # BRANDY AGUILAR FLORES - brandyaguilar001@gmail.com
@@ -40,6 +41,7 @@ print(a)
 
 a.pop()
 print("a.pop()")
+a.pop()
 #1234.5
 
 print(a)
