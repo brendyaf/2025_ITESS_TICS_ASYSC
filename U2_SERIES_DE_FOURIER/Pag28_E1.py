@@ -8,11 +8,21 @@
 
 from collections import deque
 queue = deque(["Eric", "John", "Michael"])
+print("queue = deque(['Eric', 'John', 'Michael'])")
+print(deque)
+
 queue.append("Terry") # llega Terry
+print("queue.append('Terry')")
 queue.append("Graham") # llega Graham
-queue.popleft() # el primero en llegar ahora se va
+print("queue.append('Graham')")
+print(queue)
+
+ # el primero en llegar ahora se va
+print("queue.popleft()")
+print(queue.popleft()) 
 #'Eric'
-queue.popleft() # el segundo en llegar ahora se va
+print("queue.popleft()")
+print(queue.popleft()) # el segundo en llegar ahora se va
 #'John'
-queue # el resto de la cola en órden de llegada
+print(queue) # el resto de la cola en órden de llegada
 #['Michael', 'Terry', 'Graham']
