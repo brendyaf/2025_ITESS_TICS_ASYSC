@@ -2,10 +2,13 @@
 Repositorio de la materia de ASYSC con Python
 
 
-# 🌟 ¡Hola! Soy Brandy Aguilar
-Soy estudiante de Ingeniería en Tecnologías y Comunicaciones.  
-Me gusta aprender, crear proyectos y mejorar mis habilidades día a día.  
+# 🌟 ¡Hola! Soy Brandy Aguilar Flores
+Soy estudiante de Ingeniería en Tecnologías y Comunicaciones 💻🌐.  
+Me gusta aprender, crear proyectos y mejorar mis habilidades día a día ⚡🤖.
 
 ## 🛠 Lenguajes
 ![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=white)  
-![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)  
+## 🛠 Herramientas / Librerías
+![Think DSP](https://img.shields.io/badge/Think%20DSP-ff69b4?style=for-the-badge&logoColor=white)  
+![Jupyter Notebook](https://img.shields.io/badge/Jupyter-FA5D3A?style=for-the-badge&logo=jupyter&logoColor=white)
+
